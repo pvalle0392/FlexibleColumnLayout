@@ -50,8 +50,9 @@ sap.ui.define([
 
 			oFCL.setLayout(fioriLibrary.LayoutType.TwoColumnsMidExpanded);
 		},
-		onbackk: function () {
-			
+		handleHome: function () {
+			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			oRouter.navTo("Menu");
 		}
 	});
 });

@@ -1,6 +1,6 @@
 <mvc:View 
 	controllerName="Columns.columnNav.controller.button"
-	xmlns="sap.m"
+	xmlns ="sap.m"
 	xmlns:f="sap.f"
 	xmlns:mvc="sap.ui.core.mvc">
 	<f:DynamicPage id="dynamicPageId" toggleHeaderOnTitleClick="false">
@@ -9,36 +9,39 @@
 		<f:title>
 			<f:DynamicPageTitle>
 				<f:heading>
-					<Title text="PAGINA 1"/>
+					<Title text="EQUIPOS"/>
 				</f:heading>
+				<f:navigationActions>
+					<OverflowToolbarButton
+						type="Transparent"
+						icon="sap-icon://home"
+						press=".handleHome"
+						tooltip="Close column"
+						visible="{= ${/actionButtonsInfo/endColumn/closeColumn} !== null }"/>
+				</f:navigationActions>
 			</f:DynamicPageTitle>
 		</f:title>
 
 		<!-- DynamicPage Content -->
 		<f:content> 
-			<Button text="abrir ventana" press="onWin"></Button>
-		
 			<VBox fitContainer="true">
-				<OverflowToolbar class="sapFDynamicPageAlignContent">
+				<OverflowToolbar class="sapFDynamicPageAlignContent" >
 					<ToolbarSpacer/>
-					<SearchField search=".onSearch" width="17.5rem"/>
+					<SearchField search=".onSearch" width="15rem" placeholder="Filtar por Ub. Técina"/>
 					<OverflowToolbarButton icon="sap-icon://add" text="Add" type="Transparent" press=".onAdd"/>
 					<OverflowToolbarButton icon="sap-icon://sort" text="Sort" type="Transparent" press=".onSort"/>
 				</OverflowToolbar>
 				<Table class="sapFDynamicPageAlignContent">
 					<columns>
 						<Column width="12em">
-							<Text text="Product"/>
-						</Column>
-						<Column	hAlign="End">
-							<Text text="Price"/>
+							<Text text="Lista de equipos"/>
 						</Column>
 					</columns>
 					<items>
 						<ColumnListItem type="Navigation" press=".onListItemPress">
 							<cells>
-								<ObjectIdentifier title="lokk" text="fsdfsdsa"/>
-								<ObjectNumber number="300" unit="ur"/>
+								<ObjectIdentifier title="Router Cisco" text="30001256"/>
+								<ObjectNumber number="GREB" unit="EBIM"/>
 							</cells>
 						</ColumnListItem>
 					</items>
