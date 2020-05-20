@@ -1,0 +1,63 @@
+<mvc:View controllerName="Columns.columnNav.controller.Menu" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  displayBlock="true" 
+		  xmlns="sap.m">
+			<FlexBox class="customFlexBoxHome" 
+								 justifyContent="Center"
+							     alignItems="Center"
+							     wrap="Wrap">
+			
+					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" 
+								 header="Datos Maestros"
+								 subheader="Visualizar/Editar/Crear"
+								 id="datosMaestros"
+								 frameType="OneByOne"
+								 press="onDM">
+						<TileContent>
+							<ImageContent src="sap-icon://inventory"/>
+						</TileContent>
+					</GenericTile>
+				
+					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" 
+								 header="Crear Orden PM"
+								 id="crearOrden"
+								 frameType="OneByOne"
+								 press="onCO">
+						<TileContent>
+							<ImageContent src="sap-icon://create-form" />
+						</TileContent>
+					</GenericTile>
+
+					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" 
+								 header="Gestión de Trabajos"
+								 subheader="Visualizar/Editar/Crear"
+								 id="gestionTrabajos"
+								 frameType="OneByOne"
+								 press="onGT"> 
+						<TileContent>
+							<ImageContent src="sap-icon://activity-individual" />
+						</TileContent>
+					</GenericTile>
+					
+					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" 
+								 header="Crear Aviso PM"
+								 id="crearAviso"
+								 frameType="OneByOne"
+								 press="onCA">
+						<TileContent>
+							<ImageContent src="sap-icon://bell" />
+						</TileContent>
+					</GenericTile>
+					
+					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" 
+								 header="Tratar Avisos PM"
+								 id="tratarAvisos"
+								 frameType="OneByOne"
+								 press="onTA">
+						<TileContent>
+							<ImageContent src="sap-icon://validate" />
+						</TileContent>
+					</GenericTile>
+			</FlexBox>
+</mvc:View>							
+			

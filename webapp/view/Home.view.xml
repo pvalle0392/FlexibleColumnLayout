@@ -1,0 +1,23 @@
+<mvc:View controllerName="Columns.columnNav.controller.Home" 
+		  xmlns:mvc="sap.ui.core.mvc" 
+		  displayBlock="true" 
+		  xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="Welcome to GMAO Aplication">
+					<headerContent>
+							<Switch state="true">
+								<layoutData>
+									<FlexItemData growFactor="1" />
+								</layoutData>
+							</Switch>
+					</headerContent>
+					<content>
+						<mvc:XMLView viewName="Columns.columnNav.view.Menu"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
