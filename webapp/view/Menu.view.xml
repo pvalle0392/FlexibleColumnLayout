@@ -5,7 +5,7 @@
 			<FlexBox class="customFlexBoxHome" 
 								 justifyContent="Center"
 							     alignItems="Center"
-							     wrap="Wrap">
+							     wrap="Wrap"> 
 			
 					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" 
 								 header="Datos Maestros"

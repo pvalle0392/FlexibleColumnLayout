@@ -3,7 +3,7 @@
 sap.ui.define([
 	"Columns/columnNav/controller/Home.controller"
 ], function (Controller) {
-	"use strict";
+	"use strict"; 
 
 	QUnit.module("Home Controller");
 

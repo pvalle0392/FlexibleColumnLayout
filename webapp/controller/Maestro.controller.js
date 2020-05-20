@@ -9,7 +9,7 @@
 	'sap/f/library'
 ], function (Controller,History) {
 	"use strict";
-
+ 
 	return Controller.extend("Columns.columnNav.controller.Maestro", {
 		onInit: function () {
 			console.log(window.history);

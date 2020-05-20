@@ -1,4 +1,4 @@
-sap.ui.define([
+sap.ui.define([ 
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
 	"Columns/columnNav/model/models",

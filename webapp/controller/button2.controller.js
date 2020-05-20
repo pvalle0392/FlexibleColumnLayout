@@ -6,7 +6,7 @@ sap.ui.define([
 	"sap/ui/model/FilterOperator",
 	'sap/ui/model/Sorter',
 	'sap/m/MessageBox',
-	'sap/f/library'
+	'sap/f/library' 
 ], function (JSONModel, Controller, History, Filter, FilterOperator, Sorter, MessageBox, fioriLibrary) {
 	"use strict";
 	return Controller.extend("Columns.columnNav.controller.button2", {

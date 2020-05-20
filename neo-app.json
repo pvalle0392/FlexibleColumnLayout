@@ -10,7 +10,7 @@
       },
       "description": "SAPUI5 Resources"
     },
-    {
+    { 
       "path": "/test-resources",
       "target": {
         "type": "service",

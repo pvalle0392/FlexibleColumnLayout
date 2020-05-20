@@ -1,4 +1,4 @@
-<mvc:View
+<mvc:View 
 	controllerName="Columns.columnNav.controller.button"
 	xmlns="sap.m"
 	xmlns:f="sap.f"
@@ -15,7 +15,7 @@
 		</f:title>
 
 		<!-- DynamicPage Content -->
-		<f:content>
+		<f:content> 
 			<Button text="abrir ventana" press="onWin"></Button>
 		
 			<VBox fitContainer="true">

@@ -1,7 +1,7 @@
 sap.ui.define([
 	"sap/ui/test/Opa5"
 ], function (Opa5) {
-	"use strict";
+	"use strict"; 
 
 	return Opa5.extend("Columns.columnNav.test.integration.arrangements.Startup", {
 

@@ -1,4 +1,4 @@
-
+ 
 <mvc:View
 	controllerName="Columns.columnNav.controller.button2"
 	xmlns="sap.f"
